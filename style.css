@@ -1,0 +1,31 @@
+body {background-color: rgb(29, 1, 60);}
+p {color:rgb(127, 4, 27); font-size:150%}
+ul.physicsreasons {
+    font-size:120%;
+    color:rgb(123, 246, 56);
+    font-family:fantasy
+}
+a {font-size:120%}
+img {width:400px}
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 0px 0px; /* 3 */
+    background: #7c0404; /* 4 */
+}
+nav h2 {
+    margin: 0px 0px;
+}
+nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+    margin: 0px 0px;
+}
+
+nav li {
+    padding-left: 1rem; /* 7! */
+}
+
+table, th, td {
+    border: 1px solid;
+}
